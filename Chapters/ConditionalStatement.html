@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conditional Statement</title>
+  </head>
+  <body>
+    <script>
+      // if Statement ------------------------------------------------------------------------------------------------------------
+
+       let mode = "dark";
+       let color;
+
+         if(mode === "dark"){
+          color="black";
+        }
+
+        if(mode === "light"){
+          color="white"
+        }
+        console.log(color);
+
+      // if else statement --------------------------------------------------------------------------------------------------------------
+
+      let temperaturee = "warm"
+      let fann;
+
+      if(temperature == "warm"){
+          fan="on";
+      }else{
+          fan="of";
+      }
+
+      console.log(fan);
+
+      //else if statement ---------------------------------------------------------------------------------------------------------------------
+
+      let mod = "dark";
+      let colorr;
+
+      if (mod == "dark") {
+        color = "black";
+      } else if (mod == "blue") {
+        color = "blue";
+      } else if (mod == "silver") {
+        color = "silver";
+      } else {
+        color = "light";
+      }
+
+      console.log(color);
+
+      //Ternary operator -------------------------------------------------------------------------------------------------------------------------
+
+     let temperature ="warm" ;
+       let fan = temperature =="warm" ? "onn" : "off";
+           
+       console.log(fan);
+    </script>
+  </body>
+</html>
