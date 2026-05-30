@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra Bag Exercise</title>
+  <style>
+    .add {
+      border: none;
+      background-color: rgb(178, 240, 116);
+      border-radius: 7px;
+      padding: 5px 20px 5px 20px;
+      font-size: 11px;
+      margin-right: 5px;
+      cursor: pointer;
+
+    }
+
+    .move {
+      border: 1.5px solid;
+      border-radius: 7px;
+      padding: 4px 30px 4px 30px;
+      font-size: 11px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+
+    .sum {
+      border: none;
+      background-color: rgb(178, 240, 116);
+      border-radius: 7px;
+      padding: 5px 20px 5px 20px;
+      font-size: 11px;
+      margin-right: 5px;
+      cursor: pointer;
+
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <button class="add" onclick="itemquentity=itemquentity+1;
+    document.querySelector('#quentity').innerText = `Your bag has ${itemquentity}  items`">Add To Bag</button>
+
+    <button class="move" onclick="itemquentity=itemquentity-1;
+    document.querySelector('#quentity').innerText = `Your bag has ${itemquentity}  items`">Move To Wishlist</button>
+
+    <button class="sum" onclick="itemquentity=itemquentity+2;
+    document.querySelector('#quentity').innerText = `Your bag has ${itemquentity}  items`">Add 1 +1 Sale Item</button>
+    <h1 id="quentity"></h1>
+
+  </main>
+  <script>
+    let itemquentity = 2;
+    document.querySelector('#quentity').innerText = `Your bag has ${itemquentity}  items`
+
+  </script>
+</body>
+
+</html>
