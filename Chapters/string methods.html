@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods</title>
+</head>
+<body>
+    <script>
+        //string methods-------------------------------------------------------------
+        //there are many buid-in function to manipilate a string.  //THEY ALL ARE CAN'T CHANGE THE ORIGINAL STRING
+
+        // 1. upper case method    str.toUpperCase()
+        let str = "Rajput Gaurav";
+        console.log(str.toUpperCase());
+        
+         // 2. lower case method    str.toLowerCase()
+         let str2 = "Apna Collage";
+         console.log(str2.toLowerCase());
+
+         //3. remove whitespaces    str.trim()   // only remove starting and ending whitespace in the string.
+         let str3 = "    SDJ intenational  Collage    ";
+         console.log(str3.trim());
+
+         //4. return part of string   str.slice(start,end?)
+         let str4 = "Rajput Gaurav";
+         console.log(str.slice(1,10));
+
+         //5. join str2 with str1      str1.concat(str2)
+         let str5 = "Hello";
+         let str6 = "World";
+        console.log(str5.concat(str6));
+
+        //6. replace old string to new string  str.replace(old,new)
+        let name = "You are a bad person";
+        console.log(name.replace("bad","good"));
+
+        //7. str.charAt(idx)   find the chacracter through the there index.
+        let info = " i love js"
+        console.log(info.charAt(4));
+
+    </script>
+</body>
+</html>
