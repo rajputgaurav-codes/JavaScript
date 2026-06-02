@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Practice</title>
+</head>
+<body>
+    <script>
+        //Print all even numbers from 0 to 100.
+        for(let i=0;i<=100;i++){
+            if(i%2==0){
+            console.log(i);
+            }
+        }
+
+        // create a guessing game number
+
+        let gamenumber=28;
+
+        let usernumber=prompt("enter the guess number");
+
+        while(usernumber != gamenumber){
+            usernumber=prompt("Sorry,  You guess the wrong number. guess again--");
+        }
+
+        console.log("welldone , You guess the number");
+    </script>
+</body>
+</html>
