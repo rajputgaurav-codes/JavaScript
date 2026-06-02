@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise/practice of condional statement</title>
+</head>
+<body>
+    <script>
+        //Get user to input a number using prompt ("Enter a number:"). Check if the number is a mulitiple of 5 or not.
+
+        let num = prompt("Enter a number");
+
+        if(num%5 == 0){
+            console.log("yes, this number is a multiple of 5");
+        }else{
+            console.log("No, this number is not a multiple of 5");
+
+        }
+
+        // write a code which can give grades to student according to their scores.
+
+        let sub1 = 86 , sub2 = 45, sub3 = 22;
+        let totalmarks;
+        totalmarks = sub1 + sub2 + sub3;
+        let percentage = (totalmarks/3.0);
+        console.log("percentage = ", percentage);
+        let grade;
+
+        if(percentage >=80 && percentage <=100){
+            grade="A";
+        }else if(percentage >=70 && percentage <=89){
+            grade="B";
+        }else if(percentage >=60 && percentage <=69){
+            grade="C";
+        }else if(percentage >=50 && percentage <=59){
+            grade="D"
+        }else{
+            grade="Fail";
+        }
+
+        console.log("Grade", grade);
+
+    
+    </script>
+</body>
+</html>
