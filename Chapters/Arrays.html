@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        //arays
+        let marks = [85,24,96,75,45,27];
+        console.log(marks);
+        console.log(marks.length);  //property
+        marks[1]= 45;
+        console.log(marks);
+         
+        //string arrays.
+        let heroes =["ironman","spiderman","thor","hulf","entman","captainAmerica"];
+        console.log(heroes);
+        console.log(heroes[2]);
+
+        //looping over an arrays
+        //using for loop
+        for(let i=0;i<heroes.length;i++){
+            console.log(heroes[i]);
+        }
+
+        // for of loop
+        for(let i of heroes){
+            console.log(i);
+        }
+
+        //also print using methods
+        for(let i of heroes){
+            console.log(i.toUpperCase());
+        }
+
+    </script>
+</body>
+</html>
