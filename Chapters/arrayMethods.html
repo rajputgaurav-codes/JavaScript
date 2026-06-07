@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays Methods</title>
+</head>
+<body>
+    <script>
+        //1. push()   --add to end
+        // let foodItems = ["apple","banana","litchi","mango"];
+        // foodItems.push("guva","Chips","paneer");
+        // console.log(foodItems);
+
+        //2. pop()  -- delete from end & return
+        // let foodItems = ["apple","banana","litchi","mango"];
+        // let deletedValue = foodItems.pop();
+        // console.log(deletedValue);
+
+        //3. toString() converted arrays into a string
+        //   let items = ["pencil",24,"robet",62,"radha","hanumanjii"];
+        //   console.log(items);
+        //   console.log(items.toString());
+        
+        //4.concat() to combine two or more array
+        // let marvelHeroes = ["thor","ironman","spiderman","hulk"];
+        // let dcHeroes = ["superman","batman","ninja"];
+        // let indianHeroes = ["flyingzat","bahubali"];
+        // let heroes = marvelHeroes.concat(dcHeroes,indianHeroes);
+        // console.log(heroes);
+
+        //5. unshift() -- add to start
+        // let names = ["rahul","gaurav","amit","kunal"];
+        // names.unshift("ram","radha");
+        // console.log(names);
+
+        //6. shift()  -- delete from start & return
+        // let names = ["rahul","gaurav","amit","kunal","sohan","mohan"];
+        // let removeValue = names.shift();
+        // console.log(names);
+        // console.log(removeValue);
+
+        //7. slice()  -- return a piece of the array   --does not change the original array
+         let namess = ["rahul","gaurav","amit","kunal","sohan","mohan"];
+         console.log(namess.slice(1,4));
+
+         //8. Splice()  -- change original array (add, remove,replace)
+         let marks = [24,45,54,75,28,12];
+         marks.splice(3,2,45,"rahul");
+         console.log(marks); 
+
+
+         
+
+    </script>
+</body>
+</html>
