@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array methods practice</title>
+</head>
+<body>
+    <script>
+        // <!--create an array to store companies -> "Bloomberg","Microsoft","Uber","Google","IBM","Netflix".                                                                                         a.Remove the first company from the array.
+        //  b.Remove uber & Add Ola in its place.
+        //  c.Add Amazon at the end.       -->
+
+         let companies = ["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+         companies.shift();
+         console.log(companies);// task one complete removing first companie.
+
+         companies.splice(2,1,"Ola");
+         console.log(companies);// task two complete Remove uber & Add Ola in its place.
+
+         companies.push("Amazon");
+         console.log(companies); // task third complete Add Amazon at the end.
+
+    </script>
+</body>
+</html>
