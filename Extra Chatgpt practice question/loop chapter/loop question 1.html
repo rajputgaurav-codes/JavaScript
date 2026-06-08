@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop practice question</title>
+</head>
+<body>
+    <script>
+
+        // count vowels.
+        let str = "JavaScript";
+        let count = 0;
+        for(let i=0;i<str.length;i++){
+            if(
+                str[i] === "a"||
+                str[i]=== "e" ||
+                str[i]=== "i" ||
+                str[i]=== "o" ||
+                str[i]=== "u" 
+            ){
+                 count++;
+
+            }
+             
+        }
+        console.log("vowels : ",count);
+
+         
+        //another method to find how many vowles in a string
+        let str2 = "javascript";
+    let vowles = "";
+    for(let i=0;i<str.length;i++){
+        if(
+            str[i]=== "a" ||
+            str[i]=== "e" ||
+            str[i]=== "i" ||
+            str[i]=== "o" ||
+            str[i]=== "u" 
+        ){
+            vowles +=str[i];
+        }
+    }
+    console.log(vowles.length);
+    </script>
+</body>
+</html>
