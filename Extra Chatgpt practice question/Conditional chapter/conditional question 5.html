@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional question</title>
+</head>
+<body>
+    <script>
+        // Build (Rock , papaer , scessior) logic using conditional statement.
+        
+        function rps(user,computer){
+            if(user === computer) return "Draw";
+            else if(user === "rock" && computer === "scessior") return "user";
+            else if(user === "scessior" && computer === "paper") return "user";
+            else if(user === "paper" && computer === "rock") return "user";
+
+          else   return "computer"
+        }
+
+        console.log(rps("rock","paper"));
+    </script>
+</body>
+</html>
