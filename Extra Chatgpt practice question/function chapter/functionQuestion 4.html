@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function question 4
+    </title>
+</head>
+<body>
+    <script>
+        // count letter in string using function
+
+        function countLetter(str,val){
+            let count =0;
+            for ( let i=0;i<str.length;i++){
+                if(str[i] === val){
+                    count ++;
+                }
+            }
+            return count;
+        }
+        console.log(countLetter("javascript","a"));
+    </script>
+</body>
+</html>
