@@ -41,17 +41,68 @@
         // console.log(removeValue);
 
         //7. slice()  -- return a piece of the array   --does not change the original array
-         let namess = ["rahul","gaurav","amit","kunal","sohan","mohan"];
-         console.log(namess.slice(1,4));
+        //  let namess = ["rahul","gaurav","amit","kunal","sohan","mohan"];
+        //  console.log(namess.slice(1,4));
 
          //8. Splice()  -- change original array (add, remove,replace)
-         let marks = [24,45,54,75,28,12];
-         marks.splice(3,2,45,"rahul");
-         console.log(marks); 
+        //  let marks = [24,45,54,75,28,12];
+        //  marks.splice(3,2,45,"rahul");
+        //  console.log(marks); 
+
+        //9 . reverse()  -- reverse the array  .     -- change in original array.
+        // let arr = [24,25,36,14,28,27];
+        // arr.reverse();
+        // console.log(arr)
+
+        //10 . sort() -- sort the array in assending and discending order.   -- it takes a function .
+        // let marks = [24,56,68,95,78,28,76];
+        // marks.sort(function (a,b){
+        //     return a-b;                       //the array converted in assending order 
+        // })
+        // console.log(marks);
+
+        //11.foreach() -- ye ek ek array par jata hai task performe karta hai.  --it takes a function.
+        // let arr = [24,25,78,65,41];
+        // arr.forEach(function (val){
+        //     console.log(val - 5);
+        // })
+
+        //12 . // map() -- map srf tab use karna hai jab aapko ek naya array  banana hai pichhle aaray ke data ke base par.
+                      // -- map dikhte hi sath man may ek balnk aaray bana liya karo.
+                      // usae -> jab bhi aapko koi case dikh jaye jaha par ek array se naya array banega and vo naya array kuch values ko rakhega map lagega.
+
+        //  let arr = [24,25,78,65,41];
+        //  let newarr = arr.map(function (val){
+        //     return 24 ;                //new aaray may 5 baar 24 print hoga
+        //  })
+        //  console.log(newarr);
+
+        //13 . filter() -- ye bhi map ke jesa hi hai par ye kuch value hi naye array may dalta hai true or false ka jariye.
+
+        //   let arr = [24,25,78,65,41];
+
+        //   let newarr = arr.filter( function (val){
+        //     if(val > 25) return true;
+        //   })
+        //   console.log(newarr)
 
 
-         
+        //14.reduce() -- ye pre arr ko ek single value may convert kar deta hai.
 
+        //   let arr = [24,25,78,65,41];
+        //  let ans = arr.reduce(function(sum,val){     // ye 2 parameter leta hai first pairameter leta hai first parameter ke according hame last may oske value define karni hoti hai. -- like sum karna hai pure array ka to last may sum ke value 0 dikhani hogi.
+        //     return sum +val;
+        //   }, 0); 
+        //   console.log(ans);
+
+        //15 . find()  -- it is used to find a spacific val in the arr.
+
+        //   let arr = [24,25,78,65,41];
+          
+        //   let va = arr.find(function(val){
+        //     return val === 78;
+        //   })
+        //   console.log(va);
     </script>
 </body>
 </html>
