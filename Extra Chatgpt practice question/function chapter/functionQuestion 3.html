@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function question 3</title>
+</head>
+<body>
+    <script>
+        // Palindrom function
+        function checkpalindrom(str){
+            let rev = "";
+            for(let i = str.length -1;i>=0;i--){
+                rev += str[i];
+            }
+             if(rev === str) return "palindrom";
+             return "Not Plindrom"
+        }
+        console.log(checkpalindrom("madam"));
+    </script>
+</body>
+</html>
