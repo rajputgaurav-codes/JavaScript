@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array question 1</title>
+</head>
+<body>
+    <script>
+        // sum fo an array using function.
+         
+        function sumarr(arr){
+            let sum =0;
+            for(let i = 0;i<arr.length;i++){
+                 sum += arr[i];
+            }
+            return sum;
+        }
+        let sum = sumarr([10,20,30,40,50]);
+        console.log(sum);
+
+
+
+
+
+      // another method to solve this question using reduce method.
+
+       let arr = [10,20,30,40,50];
+       let sumarry=arr.reduce(function(sum,val){
+        return sum + val;
+       }, 0);
+       console.log(sumarry);
+    </script>
+</body>
+</html>
