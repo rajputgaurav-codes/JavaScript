@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array question 4</title>
+</head>
+<body>
+    <script>
+        // find even number in the array
+        function findEvenNum(arr){
+            let evenNum = [];
+            for(let i = 0; i<arr.length;i++){
+                if(arr[i]%2==0){
+                    evenNum.push(arr[i]);
+                }
+            }
+             return evenNum;
+        }
+        let check = findEvenNum([5,1,2,7,4,5,6]);
+        console.log(check);
+    </script>
+</body>
+</html>
