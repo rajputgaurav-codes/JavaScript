@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array question 5</title>
+</head>
+<body>
+    <script>
+        //find largest number in the array
+        // function currentArr(arr){
+        //     let largest = arr[0];
+        //     for(let i =0;i<arr.length;i++){
+        //         if(arr[i]>largest){
+        //             largest = arr[i];
+        //         }
+        //     }
+        //     return largest;
+        // }
+        // let arr = currentArr([10,20,30,40,50]);
+        // console.log(arr);
+
+
+        //find smallest number in the array.
+         function currentArr(arr){
+            let samalest = arr[0];
+            for(let i =0;i<arr.length;i++){
+                if(arr[i]<samalest){
+                    samalest = arr[i];
+                }
+            }
+            return samalest;
+        }
+        let arr = currentArr([10,20,30,40,50]);
+        console.log(arr);
+    </script>
+</body>
+</html>
