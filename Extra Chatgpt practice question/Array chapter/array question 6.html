@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array question 6
+    
+    </title>
+</head>
+<body>
+    <script>
+        //count positive number in the array.
+        function currentArr(arr){
+            let possitive = [];
+            for(let i =0;i <arr.length;i++){
+                if(arr[i]>0){
+                    possitive.push(arr[i]);
+                }
+            }
+            return possitive;
+        }
+        let check = currentArr([-5,8,-7,-5,8,-8,7,5]);
+        console.log(check);
+    </script>
+</body>
+</html>
