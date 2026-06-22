@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function Question</title>
+</head>
+<body>
+    <script>
+        //sum of even number in the array
+
+      function countEven(arr){
+        let sum = 0;
+        for(let i=0;i<arr.length;i++){
+            if(arr[i]%2===0){
+                sum = sum +arr[i];
+            }
+        } 
+        return sum;
+     }
+     console.log((countEven([24,56,78,55,49,68,12,25,34,155])));
+    </script>
+</body>
+</html>
