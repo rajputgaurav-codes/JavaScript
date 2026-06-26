@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object question</title>
+</head>
+<body>
+    <script>
+        //create a object for a student with the name,age and isEnrolled.
+
+        let stud = {
+            name : "Gaurav",
+            age : 18,
+            course : "BCA"
+        };
+        console.log(stud.name);
+
+        stud.age=19;                 //age update
+        console.log(stud.age);
+
+        stud.city="surat";      //add new property in the object.
+        console.log(stud);
+
+        delete stud.course;     //delete the property in the object.
+        console.log(stud);  
+
+        console.log(stud["name"]);  //print the variable using bracket notation.
+     
+    </script>
+</body>
+</html>
