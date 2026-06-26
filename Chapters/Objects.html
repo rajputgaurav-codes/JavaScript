@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <script>
+
+        //normal object -----------------------------------------------------
+        // let obj = {
+        //     name:"Gaurav",
+        //     age:19,
+        //     gratuated : false,
+        // };
+        // obj.name   //If you want a excess a element int obj use . notation
+        // obj['age']  // this is also using to axcess a elemnet int the object
+
+        // //nested and deeper object ----------------------------------------------------------------------
+
+        // const user = {
+        //     name : "Sweety",
+        //     address: {
+        //         city:"Bhopal",
+        //         pin : 394327,
+        //         location: {
+        //             lat:23.2,
+        //             lng:77.4,
+        //         },
+        //     },
+        // };
+
+        // console.log(user.address.location.lng);  //the process to axcess a nested and deepper object.
+        // //short method to axecess a spacipic element in the nested onject is  
+        // let {lat,lng} = user.address.location;    //then use aecess any those value withoude write the long code.
+
+        //using loop to access key -values in the object.
+
+        //         let obt = {
+        //     name:"Gaurav",
+        //     age:19,
+        //     gratuated : false,
+        // };
+        // for(let key in obt){
+        //     console.log(key,obt[key]);
+        // }
+
+
+        //objects.keys  -- they return the all keys in the object and converte/stored in the arrays.
+        
+                 let obc = {
+            name:"Gaurav",
+            age:19,
+            gratuated : false,
+        };
+
+        console.log(Object.keys(obc));      //create array of keys.
+        console.log(Object.entries(obc));   // create array of aarays in keys and values.
+
+    </script>
+</body>
+</html>
