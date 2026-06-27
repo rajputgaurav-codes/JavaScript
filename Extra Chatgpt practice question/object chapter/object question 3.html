@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object question</title>
+</head>
+<body>
+    <script>
+        //array + object print only names.
+        let student = [
+            {name:"Gaurav",age:19},
+            {name:"Amit",age:20},
+            {name:"Anurag",age:21}
+        ];
+        for(let i=0;i<student.length;i++){
+             console.log(student[i].name);
+        }
+
+        // check vale in the object or not
+
+
+        let product = {
+            name: "Laptop",
+            price: 50000,
+            inStock: true
+        };
+        if(product.inStock){
+               console.log(`${product.name} is available`);
+        }else{
+            console.log(`${product.name} is not available`);
+        }
+
+    </script>
+</body>
+</html>
