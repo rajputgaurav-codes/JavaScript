@@ -1,0 +1,27 @@
+body{
+    background-color: palevioletred;
+}
+
+h1{
+    background-color: yellow;
+    text-align: center;
+    color:blueviolet;
+}
+button{
+    background-color: blue;
+    color: white;
+    margin-left: 50%;
+    width: 15%;
+    height: 5vh;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: rgb(20, 91, 245);
+}
+h3{
+    color:crimson;
+}
+
